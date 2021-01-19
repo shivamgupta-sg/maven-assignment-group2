@@ -17,6 +17,9 @@ target/
 .idea/
 out/
 
+# .iml files
+*.iml
+
 # Compiled class file
 *.class
 
