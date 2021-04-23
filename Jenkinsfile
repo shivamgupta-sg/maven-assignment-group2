@@ -4,13 +4,13 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                mvn clean compile
+                bash 'mvn clean compile'
             }
         }
 
         stage('Test') {
             steps {
-                mvn test
+                bash 'mvn test'
             }
         }
     }
